@@ -1,0 +1,31 @@
+.navbar {
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px; 
+    list-style-type: none; 
+    padding-left: 15vw;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a::after {
+    content: "|";
+    padding-left: 10px;
+    color: white;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 15vw;
+    font-size: 50px;
+}

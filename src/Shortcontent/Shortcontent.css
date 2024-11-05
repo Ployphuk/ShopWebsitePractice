@@ -1,0 +1,24 @@
+.Short {
+    align-items: center;
+    height: 20vw;
+    background-image: url("minimalroom.jpg");
+    
+    /*background: url('/modernpic.jpg') no-repeat center; /* its work but have to find new picture */
+    background-size: cover;
+    position: relative;
+    /*background-image: linear-gradient(rgb(253, 253, 253), rgb(196, 195, 195));*/
+}
+
+.short-content{
+    color: aliceblue;
+    text-align: left;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 10%;
+    bottom: 10%;
+    left: 15vw;
+    font-size: 20px;
+}

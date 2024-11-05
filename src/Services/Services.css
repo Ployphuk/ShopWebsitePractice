@@ -1,0 +1,50 @@
+.card {
+    border: 3px solid rgb(233, 233, 233);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgb(185, 185, 185);
+    padding: 30px;
+    margin: 5px;
+    display: inline-block;
+    width: 250px; 
+    height: 350px; 
+    overflow: hidden; 
+    background-color: white;
+}
+
+.service-header {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.Service {
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+}
+
+.Service p {
+    text-align: center;
+}
+
+.servicepicture img {
+    margin-top: 7%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 186px;
+    height: 80%;
+    object-fit: cover;
+}
+
+.servicedetail {
+    height: 100px; 
+    overflow: hidden;
+}
+
+.service-name, .service-detail {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,8 @@
+[
+    { "id": 1, "product_name": "sofa" },
+    { "id": 2, "product_name": "modern oven" },
+    { "id": 3, "product_name": "lamp" },
+    { "id": 4, "product_name": "modern closet" },
+    { "id": 5, "product_name": "modern bed" },
+    { "id": 6, "product_name": "toilet" }
+]
